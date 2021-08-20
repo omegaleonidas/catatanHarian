@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InsertData"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama file :"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:id="@+id/edName"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Catatan :"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:ems="10"
+        android:gravity="left|top"
+        android:background="@android:color/darker_gray"
+        android:hint="Catatan"
+        android:id="@+id/edNoted"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        />
+
+</LinearLayout>
